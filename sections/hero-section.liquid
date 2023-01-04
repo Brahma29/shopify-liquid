@@ -1,0 +1,56 @@
+<section>
+  <div class="hero-text">
+    <img
+      src="{{ 'hero-button.svg' | asset_url }}"
+      loading="lazy"
+      style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+      data-w-id="71be5e8b-5813-7a8d-2034-e8d59947a632"
+      alt=""
+    >
+    <div class="flex-2 gap-0 mb-0 _w-100">
+      <h1 class="heading hide">{{ 'tn1939893e' | t }}</h1>
+      <a
+        style="-webkit-transform:translate3d(0, 150px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+        href="{{ pages["shop"].url }}"
+        class="btn btn-bg-crayola explore-btn w-button"
+      >
+        {{- 'tn233c798d' | t -}}
+      </a>
+    </div>
+    <div
+      data-w-id="c84d38bb-c27b-63f2-1d31-d59a02995252"
+      style="-webkit-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+      class="hero-image"
+    >
+      <img
+        src="{{ 'hero-image.png' | asset_url }}"
+        loading="lazy"
+        sizes="(max-width: 479px) 85vw, (max-width: 767px) 87vw, (max-width: 991px) 89vw, (max-width: 1919px) 91vw, 1376px"
+        srcset="{{ 'hero-image-p-500.png' | asset_url }} 500w, {{ 'hero-image-p-800.png' | asset_url }} 800w, {{ 'hero-image-p-1080.png' | asset_url }} 1080w, {{ 'hero-image-p-1600.png' | asset_url }} 1600w, {{ 'hero-image-p-2000.png' | asset_url }} 2000w, {{ 'hero-image.png' | asset_url }} 2492w"
+        alt=""
+        class="image-10"
+      >
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Hero",
+  "class": "hero-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Example Heading",
+      "label": "Heading title"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Hero",
+      "name": "Simple Hero"
+    }
+  ]
+}
+{% endschema %}
