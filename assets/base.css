@@ -2220,8 +2220,8 @@ input[type='checkbox'] {
 }
 
 .shopify-section-header-sticky {
-  position: sticky;
-  top: 0;
+  /* position: sticky;
+  top: 0; */
 }
 
 .shopify-section-header-hidden {
@@ -2238,9 +2238,6 @@ input[type='checkbox'] {
 
 /* Main Header Layout */
 .header-wrapper {
-  display: block;
-  position: relative;
-  background-color: rgb(var(--color-background));
 }
 
 .header-wrapper--border-bottom {
@@ -2248,10 +2245,19 @@ input[type='checkbox'] {
 }
 
 .header {
-  display: grid;
-  grid-template-areas: 'left-icon heading icons';
-  grid-template-columns: 1fr 2fr 1fr;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  padding: 20px 0px !important;
 }
 
 @media screen and (min-width: 990px) {
