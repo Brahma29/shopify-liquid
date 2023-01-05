@@ -213,6 +213,13 @@
       "settings": {
         "title": "Example Heading"
       }
+    },
+    "2699560b-1ac8-4a5d-9446-fd1cb1aceed2": {
+      "type": "home-page-para-section",
+      "settings": {
+        "para_text": "vfbfdb",
+        "btn_url": ""
+      }
     }
   },
   "order": [
@@ -222,6 +229,7 @@
     "collage",
     "video",
     "multicolumn",
-    "e41bce8e-980c-48cb-9029-ba401e5d3213"
+    "e41bce8e-980c-48cb-9029-ba401e5d3213",
+    "2699560b-1ac8-4a5d-9446-fd1cb1aceed2"
   ]
 }
