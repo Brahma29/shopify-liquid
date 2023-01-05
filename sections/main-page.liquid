@@ -23,6 +23,7 @@
     {{ page.title | escape }}
   </h1>
   <div class="rte">
+    <script>console.log({{ collection.products | json }})</script>
     {{ page.content }}
   </div>
 </div>
